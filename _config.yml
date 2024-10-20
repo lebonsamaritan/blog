@@ -1,0 +1,15 @@
+title:        "No Name"
+baseurl:      ""
+paginate:     1
+locale:       "en_US.UTF-8"
+
+author:
+  name:       Ada Huang
+  email:      ada.zan.huagn@gmail.com
+
+plugins:
+  - jekyll-paginate
+
+markdown: kramdown
+kramdown:
+  math-engine: katex
