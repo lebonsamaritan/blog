@@ -1,11 +1,11 @@
 title:        "Café Musain"
-baseurl:      "/blog"
+baseurl:      ""
 paginate:     1
 locale:       "en_US.UTF-8"
 
 author:
   name:       Ada Huang
-  email:      ada.zan.huagn@gmail.com
+  email:      ada.zan.huang@gmail.com
 
 plugins:
   - jekyll-paginate
