@@ -1,0 +1,41 @@
+baseURL = '/blog'
+languageCode = 'en-us'
+title = 'Café Musain'
+theme = 'hyde'
+
+[pagination]
+  disableAliases = false
+  pagerSize = 10
+  path = 'page'
+
+[params]
+  math = true
+  author.name = "Ada Huang"
+  author.email = "ada.zan.huang@gmail.com"
+
+[taxonomies]
+  year = "year"
+  tag = "tags"
+  category = "categories"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
+
+[menu]
+  [[menu.nav]]
+  identifier = ""
+  name = "Categories"
+  url = "/categories/"
+  weight = 1
+
+  [[menu.nav]]
+  identifier = ""
+  name = "Years"
+  url = "/year/"
+  weight = 2
