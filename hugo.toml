@@ -12,7 +12,8 @@ theme = 'hyde'
   math = true
   author.name = "Ada Huang"
   author.email = "ada.zan.huang@gmail.com"
-  myown_css = ["css/myown.css"]
+  themeColor = "theme-base-0f"
+  myown_css = ["css/myown.css", "css/responsive-nav.css"]
 
 [[module.mounts]]
   source = 'images'

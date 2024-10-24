@@ -14,7 +14,7 @@
           {{- $cat := index $site.Taxonomies .Identifier -}}
           {{- $id := .Identifier -}}
           {{ range $term, $value :=  $cat }}
-          <li><a href="/{{$id}}/{{$term}}">{{$term}}</a></li>
+          <li><a href="{{ $site.BaseURL }}/{{ $id }}/{{ $term }}">{{strings.FirstUpper $term}}</a></li>
           {{- end }}
         </ul>
         {{- end -}}
@@ -23,7 +23,7 @@
       <ul class="sidebar-nav">
         <li><a href="{{ .Site.BaseURL }}">Home</a></li>
         {{- range .Site.Menus.main -}}
-        <li><a href="{{.URL}}">{{ .Name }}</a></li>
+        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
         {{- end }}
       </ul>
     </nav>    

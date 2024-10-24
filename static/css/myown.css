@@ -1,9 +1,45 @@
-.sidebar {
-    background-color: #6F4E37;
-    /* background-image: url("/images/cafe-musain.jpg"); */
-    margin-left: auto;
-    margin-right: auto;
-    height: 100%;
+/* Import ET Book styles
+   adapted from https://github.com/edwardtufte/et-book/blob/gh-pages/et-book.css */
+@font-face {
+    font-family: "et-book";
+    src: url("et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot");
+    src: url("et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot?#iefix") format("embedded-opentype"), url("et-book/et-book-roman-line-figures/et-book-roman-line-figures.woff") format("woff"), url("et-book/et-book-roman-line-figures/et-book-roman-line-figures.ttf") format("truetype"), url("et-book/et-book-roman-line-figures/et-book-roman-line-figures.svg#etbookromanosf") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "et-book";
+    src: url("et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot");
+    src: url("et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot?#iefix") format("embedded-opentype"), url("et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.woff") format("woff"), url("et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.ttf") format("truetype"), url("et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figur\
+es.svg#etbookromanosf") format("svg");
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "et-book";
+    src: url("et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot");
+    src: url("et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot?#iefix") format("embedded-opentype"), url("et-book/et-book-bold-line-figures/et-book-bold-line-figures.woff") format("woff"), url("et-book/et-book-bold-line-figures/et-book-bold-line-figures.ttf") format("truetype"), url("et-book/et-book-bold-line-figures/et-book-bold-line-figures.svg#etbookromanosf") format("svg");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "et-book-roman-old-style";
+    src: url("et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.eot");
+    src: url("et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.eot?#iefix") format("embedded-opentype"), url("et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.woff") format("woff"), url("et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.ttf") format("truetype"), url("et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.svg#etbookromanosf") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+    font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+
+ul {
+    list-style: none;
 }
 
 .sidebar-id {
@@ -18,26 +54,38 @@ ul.sidebar-id li {
     margin-top: 5px;
 }
 
-@media (min-width: 48em) {
-    .sidebar {
-        width: 20rem;
-    }
+table.posts {
+  margin-bottom: 1rem;
+  width: 100%;
+  border: 0pgx;
+  border-collapse: collapse;
+  td,
+  th {
+      padding: .25rem .5rem;
+      border: 0px;
+  }
+  tbody tr td {
+      background-color: #fff;
+  }
 }
 
-@media (min-width: 48em) {
-  .sidebar-sticky-top {
+.sidebar {
+    width: 20rem;
+}
+
+.sidebar-sticky-top {
     position: absolute;
     right:  1rem;
     top: 1rem;
     left:   1rem;
-  }
 }
 
-@media (min-width: 48em) {
-  .sidebar-sticky-bottom {
+
+
+.sidebar-sticky-bottom {
     position: absolute;
     right:  1rem;
     bottom: 1rem;
     left:   1rem;
-  }
 }
+
