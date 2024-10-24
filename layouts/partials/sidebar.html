@@ -10,7 +10,7 @@
         <li><a href=" {{ .URL }}">{{ .Name }}</a></li>
         {{- if isset $site.Taxonomies .Identifier -}}
         {{- $idx := index $site.Taxonomies .Identifier }}
-        <ul>
+        <ul class="sidebar-id">
           {{- $cat := index $site.Taxonomies .Identifier -}}
           {{- $id := .Identifier -}}
           {{ range $term, $value :=  $cat }}
