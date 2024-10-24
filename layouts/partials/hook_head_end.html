@@ -1,1 +1,5 @@
-{{ partial "math.html" . }}
+{{- partial "math.html" . -}}
+{{- range .Site.Params.myown_css }}
+  <link rel="stylesheet" href="{{ . | absURL }}">
+{{ end -}}
+

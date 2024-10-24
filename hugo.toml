@@ -12,6 +12,11 @@ theme = 'hyde'
   math = true
   author.name = "Ada Huang"
   author.email = "ada.zan.huang@gmail.com"
+  myown_css = ["css/myown.css"]
+
+[[module.mounts]]
+  source = 'images'
+  target = 'static/images'
 
 [taxonomies]
   year = "year"
@@ -29,13 +34,13 @@ theme = 'hyde'
 
 [menu]
   [[menu.nav]]
-  identifier = ""
+  identifier = "categories"
   name = "Categories"
   url = "/categories/"
   weight = 1
 
   [[menu.nav]]
-  identifier = ""
+  identifier = "year"
   name = "Years"
   url = "/year/"
   weight = 2
