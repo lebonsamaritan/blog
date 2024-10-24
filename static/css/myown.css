@@ -1,0 +1,34 @@
+.sidebar {
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    background-color: #323232;
+}
+
+.sidebar-about {
+    padding-bottom: 50px;
+}
+
+@media (min-width: 48em) {
+    .sidebar {
+        width: 20rem;
+    }
+}
+
+@media (min-width: 48em) {
+  .sidebar-sticky-top {
+    position: absolute;
+    right:  1rem;
+    top: 1rem;
+    left:   1rem;
+  }
+}
+
+@media (min-width: 48em) {
+  .sidebar-sticky-bottom {
+    position: absolute;
+    right:  1rem;
+    bottom: 1rem;
+    left:   1rem;
+  }
+}
