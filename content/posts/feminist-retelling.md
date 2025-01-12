@@ -17,7 +17,7 @@ I am by no means against or disapprove of feminist retellings.
 In fact, I believe that the reclamation of female characters is beneficial, or perhaps even necessary, 
 to the development of a distinct female voice in literature. 
 As noted by Sandra Gilbert and Susan Gubar in their revolutionary literary critique of Victorian literature, 
-The *Madwoman in the Attic*, male authors have molded two archetypes for their female characters to fit neatly into: 
+*The Madwoman in the Attic*, male authors have molded two archetypes for their female characters to fit neatly into: 
 the angel and the monster. 
 The angel is the pure, idealized woman, 
 with no story of her own and serving only to make others great while never being great herself. 
