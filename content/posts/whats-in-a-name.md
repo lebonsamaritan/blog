@@ -2,7 +2,7 @@
 title = "What's in a Name?"
 date = 2024-10-22T19:58:05-04:00
 year = 2024
-draft = false
+draft = true
 summary = '\(\LaTeX\) Rules'
 categories = ["latex","math"]
 +++
